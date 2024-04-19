@@ -1,0 +1,43 @@
+
+.swiper-height{
+    height: 500px;
+}
+.swiper-image{
+    width: 100%;
+    height : 100%;
+    object-fit : cover;
+}
+
+@media only screen and (max-width: 1024px) {
+    .swiper-height{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .swiper-height{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .swiper-height{
+        height: 150px;
+    }
+}
+
+/* testimonials */
+
+.swiper-test-height{
+    height: fit-content;
+}
+
+/* about */
+
+.swiper-about-height{
+    height: 500px !important;
+}
+
+
+
+

@@ -1,0 +1,69 @@
+:root{
+    --teal: #2ec1ac;
+    --teal_hover:  #279e8c;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+.h-font{
+    font-family: "Merienda", cursive;
+}
+        /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+.custom-bg{
+    background-color: var(--teal) !important;
+}
+.custom-bg:hover{
+    background-color: var(--teal_hover) !important;
+}
+
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.5px;
+}
+
+.custom-alert{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+}
+.custom-alert-dashboard{
+    position: fixed;
+    top: 80px;
+    right: 25px;
+    z-index: 20;
+
+}
+
+#dashboard-menu{
+    position: fixed;
+    height: 100%;
+    z-index : 11;
+}
+
+#dashboard-menu .nav .nav-item .nav-link.active {
+    background-color : var(--teal);
+    border-radius : 4px;
+}
+
+@media screen and (max-width: 991px) {
+    #dashboard-menu{
+        position: fixed;
+        height: auto;
+        width: 100%;
+    }
+    #main-content{
+        margin-top: 60px;
+    }
+}
